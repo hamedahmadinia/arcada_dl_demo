@@ -45,13 +45,17 @@ The code in this repository are based on [CSC's Introduction to deep learning](h
 * *tf2-dvc-cnn-predict.py*: Use trained CNN to predict the class label of supplied jpg file
 
 To train a simple CNN from scratch:
-        `sbatch run-tf2.sh tf2-dvc-cnn-simple.py`
+
+        sbatch run-tf2.sh tf2-dvc-cnn-simple.py
 
 To train a CNN using transfer learning:
-         `sbatch run-tf2.sh tf2-dvc-cnn-pretrained.py`
+
+         sbatch run-tf2.sh tf2-dvc-cnn-pretrained.py
 
 To evaluate trained model on the test set, append models file name as a command line argument, e.g.
-        `sbatch run-tf2.sh tf2-dvc-cnn-evaluate.py dvc-cnn-simple.h5`
+
+        sbatch run-tf2.sh tf2-dvc-cnn-evaluate.py dvc-cnn-simple.h5
 
 To predict the class label of a supplied jpg file, append models file name and jpg file name as command line arguments, e.g.
-        `sbatch run-tf2.sh tf2-dvc-cnn-predict.py image.jpg`
+
+        sbatch run-tf2.sh tf2-dvc-cnn-predict.py image.jpg
