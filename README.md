@@ -58,4 +58,4 @@ To evaluate trained model on the test set, append models file name as a command 
 
 To predict the class label of a supplied jpg file, append models file name and jpg file name as command line arguments, e.g.
 
-        sbatch run-tf2.sh tf2-dvc-cnn-predict.py image.jpg
+        sbatch run-tf2.sh tf2-dvc-cnn-predict.py dvc-vgg16-finetune.h5 image.jpg
