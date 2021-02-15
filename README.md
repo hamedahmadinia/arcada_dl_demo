@@ -1,6 +1,6 @@
 ## Demo
 
-The code in this repository are based on [CSC's Introduction to deep learning](https://github.com/csc-training/intro-to-dl/tree/master/day2) exercises.
+The code in this repository is based on [CSC's Introduction to deep learning](https://github.com/csc-training/intro-to-dl/tree/master/day2) exercises.
 
 ### Setup
 
